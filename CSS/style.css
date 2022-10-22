@@ -1,0 +1,14 @@
+/*(# = id) (. = class)*/
+body {
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+p  {
+    text-align: center;
+}
+.note {
+    font-size: 120%;
+    color: red;
+}
