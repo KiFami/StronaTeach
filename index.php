@@ -17,11 +17,7 @@
         <li><a href="#shop">Shop</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
-    <form action="zaloguj.php" method="post">
-        Login: <br/> <input type="text" name="login"/> <br/>
-        Hasło: <br/> <input type="password" name="haslo"/> <br/> <br/><br/> 
-        <input type="submit" value="Zaloguj się"/>
-    </form>
+
     <div class="center">
     <h1> <span class="note">KiFami </span>Industry</h1>
     <p>Sklep z ubraniami</p>
