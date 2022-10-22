@@ -1,14 +1,63 @@
 /*(# = id) (. = class)*/
 body {
     margin: auto;
+    background-image: url(https://wallpapercave.com/wp/wp3522984.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     text-align: center;
+    color: aliceblue;
 }
 p  {
     text-align: center;
+    color: rgb(240, 240, 240);
 }
-.note {
+.iframe-container {
+    align-content: center;
+}
+.center {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+note {
     font-size: 120%;
     color: red;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    top: -10px;
+    height: 50px;
+}
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.801);
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
